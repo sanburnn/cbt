@@ -6,7 +6,38 @@
         <small> di Halaman Login Administrator <?php if(!empty($site_name)){ echo $site_name; } ?></small>
     </h1>
 </section>
+<style>
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 30%;
+  border-top: 16px solid #3498db;
+  width: 50px;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+    top:-100%; right:-100%; left:-100%; bottom:-100%;
 
+}
+.tengah{ 
+
+    text-align: center;
+    align-content: center;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+</style>
 <!-- Main content -->
 <section class="content">
     <div class="callout callout-info">
@@ -57,9 +88,12 @@
     <div class="modal" id="modal-proses" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
 		<div class="modal-dialog">
 			<div class="modal-content">
+                <div class="tengah">
 				<div class="modal-body">
-                    Data Sedang diproses...
+                <div class="loader"></div> 
+                    Processing.
 				</div>
+                </div>
 			</div><!-- /.modal-content -->
 		</div><!-- /.modal-dialog -->
 	</div><!-- /.modal -->
