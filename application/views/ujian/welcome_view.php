@@ -19,7 +19,7 @@
     	<div class="row">
     		<div class="login-box">
     			<div class="login-logo">
-        			<b>User Login</b>
+        			<b>Siswa Login</b>
       			</div><!-- /.login-logo -->
       			<div class="login-box-body">
         			<p class="login-box-msg">Masukkan Username dan Password</p>

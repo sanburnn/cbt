@@ -52,8 +52,15 @@
             <div class="navbar-header">
               <a href="<?php echo base_url(); ?>" class="navbar-brand"> <b><?php if(!empty($site_name)){ echo $site_name; } ?></b></a>
             </div>
+            <!-- <div class="lurus">
+                <p>Pukul</p>
+              </div> -->
             <div class="navbar-custom-menu">
+              
               <ul class="nav navbar-nav">
+                <!-- <div class="navbar-brand">
+              <li>Pukul</li>
+              </div> -->
                 <li><a href="#"><span id="timestamp"></span></a></li>
               </ul>
             </div>
@@ -85,8 +92,9 @@
 			?>
         </div>
         <div class="container">
-          <strong>&copy; 2020 achmadlutfi.wordpress.com</strong>
-        </div><!-- /.container -->
+          <strong>&copy; DimasGanteng.com</strong>
+        </div>
+        <!-- /.container -->
       </footer>
     </div><!-- ./wrapper -->
 
@@ -101,7 +109,12 @@
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
-
+<style>
+  .lurus{
+    display: inline-block;
+    
+  }
+</style>
   <script type="text/javascript">
     $(function () {
         var serverTime = <?php if(!empty($timestamp)){ echo $timestamp; } ?>;
