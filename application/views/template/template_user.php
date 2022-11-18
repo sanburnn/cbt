@@ -43,24 +43,17 @@
     
   </head>
   <!-- ADD THE CLASS layout-top-nav TO REMOVE THE SIDEBAR. -->
-  <body class="skin-green layout-top-nav">
+  <body class="skin-blue layout-top-nav">
     <div class="wrapper">
 
-      <header class="main-header">               
+      <header class="main-header" >               
         <nav class="navbar navbar-static-top">
           <div class="container">
             <div class="navbar-header">
               <a href="<?php echo base_url(); ?>" class="navbar-brand"> <b><?php if(!empty($site_name)){ echo $site_name; } ?></b></a>
             </div>
-            <!-- <div class="lurus">
-                <p>Pukul</p>
-              </div> -->
             <div class="navbar-custom-menu">
-              
               <ul class="nav navbar-nav">
-                <!-- <div class="navbar-brand">
-              <li>Pukul</li>
-              </div> -->
                 <li><a href="#"><span id="timestamp"></span></a></li>
               </ul>
             </div>

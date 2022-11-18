@@ -1,6 +1,6 @@
 <div class="container">
 	<!-- Content Header (Page header) -->
-    <section class="content-header">
+    <section class="content-header"; >
     	<h1>
     		<?php if(!empty($site_name)){ echo $site_name; } ?>
             <small><?php if(!empty($cbt_keterangan)){ echo $cbt_keterangan; }else{ echo 'Ujian Online Berbasis Komputer'; } ?></small>
