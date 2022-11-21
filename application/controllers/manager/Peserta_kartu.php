@@ -62,8 +62,36 @@ class Peserta_kartu extends Member_Controller {
 				
 				foreach($query_user AS $temp){
 					$kartu = $kartu.'
+					<!DOCTYPE html>
+					<html>
 						<div class="kartu">
 							<div class="header">'.$cbt_nama.'</div>
+							<table width = "100%">
+
+							<tr>
+				 
+								  <td> <img src="public/images/logosmk.png" width="140px"> </td>
+				 
+								  <td class = "tengah">
+				 
+										<p>PEMERINTAH DAERAH PROVINSI JAWA BARAT</p>
+				 
+										<h2>DINAS PENDIDIKAN</h2>
+				 
+										<h2>CABANG DINAS PENDIDIKAN WILAYAH VIII</h2>
+				 
+										<h1>SEKOLAH MENENGAH ATAS NEGERI JATINUNGGAL</h1>
+				 
+										<h1>SUMEDANG</h1>
+				 
+										<b>Jalan Tarikolot Jatinunggal Telp . ( 0262 ) 428590 Sumedang 45376</b>
+				 
+								  </td>
+				 
+							 </tr>
+				 
+					  </table >
+				 
 							<hr />
 							<table>
 								<tr>
@@ -93,6 +121,7 @@ class Peserta_kartu extends Member_Controller {
 								</tr>
 							</table>
 						</div>
+						</html>
 					';
 				}
 			}
