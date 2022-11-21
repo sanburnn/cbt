@@ -62,7 +62,7 @@
             </p>
         </div>
     </div>
-    <div class="box box-success box-solid">
+    <div class="box box-warning box-solid">
 		<div class="box-header with-border">
         	<h3 class="box-title">Petunjuk Penggunaan</h3>
         </div><!-- /.box-header -->
@@ -83,7 +83,7 @@
                 </dd>
                 <dt>Data Peserta</dt>
                 <dd>
-                	Kelompok Data Peserta digunakan untuk mengatur Peserta, dan Group.
+                	Kelompok Data Peserta digunakan untuk mengatur Peserta Siswa6, dan Group.
                 	<ol>
                 		<li>Daftar Group</li>
                 		<li>Daftar Peserta</li>
@@ -121,3 +121,20 @@
         </div><!-- /.box-body -->
     </div><!-- /.box -->
 </section><!-- /.content -->
+<script type="text/javascript">
+    $(function () {
+        var serverTime = <?php if(!empty($timestamp)){ echo $timestamp; } ?>;
+        var counterTime=0;
+        var date;
+
+        setInterval(function() {
+          date = new Date();
+
+          serverTime = serverTime+1;
+
+          date.setTime(serverTime*1000);
+          time = date.toLocaleTimeString();
+          $("#timestamp").html(time);
+        }, 1000);
+    });
+  </script>
