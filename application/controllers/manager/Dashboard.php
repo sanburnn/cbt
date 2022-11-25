@@ -6,9 +6,13 @@ class Dashboard extends Member_Controller {
 	}
     
     public function index(){
+        $this->load->model('Cbt_dashboard_model', 'dashboard');
         $this->load->helper('form');
         $data['nama'] = $this->access->get_nama();
-
+        $data['jumlah_siswa'] = $this->dashboard->jumlah_siswa();
+        // $data= array(
+        //     'user_id'=> $this->dashboard->jumlah_user(),
+        // );
         $data['post_max_size'] = ini_get('post_max_size');
         $data['upload_max_filesize'] = ini_get('upload_max_filesize');
         $data['waktu_server'] = date('Y-m-d H:i:s');

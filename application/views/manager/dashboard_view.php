@@ -22,7 +22,20 @@
             Teruntuk Putri kami tercinta. Asyfiya Aniqa Putri, 28 Februari 2018 – 1 Maret 2018
         </div><!-- /.box-body -->
     </div><!-- /.box -->
-  
+  <div class="container-fluid px-4">
+    <div class="row">
+        <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="info-box">
+            <span class="info-box-icon bg-yellow"><i class="ion ion-ios-people-outline"></i></span>
+            <div class="info-box-content">
+            <span class="info-box-text">Jumlah Siswa</span>
+            <span class="info-box-number"><?= $jumlah_siswa->user;?></span>
+        </div>
+        </div>  
+        </div>
+    </div>
+   
+  <br>
 	<div class="callout callout-info">
     	<h4>Informasi</h4>
         <p>Ini adalah area administratif ZYA CBT, yang memiliki platform dan bahasa user-friendly untuk membuat, mengelola dan melaksanakan ujian online.</p>
