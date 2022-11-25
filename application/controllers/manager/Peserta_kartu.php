@@ -40,7 +40,7 @@ class Peserta_kartu extends Member_Controller {
 	*/
     public function cetak_kartu($grup_id=null){
 		$data['kode_menu'] = $this->kode_menu;
-		
+		$files = "<?php echo base_url(); ?>public/images/logosmk.png";
 		$kartu = '<h3>Data Peserta Kosong</h3>';
 		if(!empty($grup_id)){
 			$query_user = $this->cbt_user_model->get_by_kolom('user_grup_id', $grup_id);
@@ -62,32 +62,17 @@ class Peserta_kartu extends Member_Controller {
 				
 				foreach($query_user AS $temp){
 					$kartu = $kartu.'
-					<!DOCTYPE html>
-					<html>
 						<div class="kartu">
-							<div class="header">'.$cbt_nama.'</div>
+							<div class="header">KARTU PESERTA</div>
 							<table width = "100%">
-
 							<tr>
-				 
-								  <td> <img src="public/images/logosmk.png" width="140px"> </td>
+								  <td> <img src="'.base_url("public/images/logosmk.png").'" width="70px alt="logo smk"> </td>
 				 
 								  <td class = "tengah">
-				 
-										<p>PEMERINTAH DAERAH PROVINSI JAWA BARAT</p>
-				 
-										<h2>DINAS PENDIDIKAN</h2>
-				 
-										<h2>CABANG DINAS PENDIDIKAN WILAYAH VIII</h2>
-				 
-										<h1>SEKOLAH MENENGAH ATAS NEGERI JATINUNGGAL</h1>
-				 
-										<h1>SUMEDANG</h1>
-				 
-										<b>Jalan Tarikolot Jatinunggal Telp . ( 0262 ) 428590 Sumedang 45376</b>
-				 
+										<h4 align="center">UJIAN AKHIR SEMESTER(GANJIL)
+										SMK AR-ROUDHOH BEJI PASURUAN</h4>	
 								  </td>
-				 
+								  <td> <img src="'.base_url("public/images/logosmk.png").'" width="70px alt="logo smk"> </td>
 							 </tr>
 				 
 					  </table >
@@ -121,7 +106,7 @@ class Peserta_kartu extends Member_Controller {
 								</tr>
 							</table>
 						</div>
-						</html>
+						
 					';
 				}
 			}
