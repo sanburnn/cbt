@@ -63,16 +63,16 @@ class Peserta_kartu extends Member_Controller {
 				foreach($query_user AS $temp){
 					$kartu = $kartu.'
 						<div class="kartu">
-							<div class="header">KARTU PESERTA</div>
 							<table width = "100%">
 							<tr>
-								  <td> <img src="'.base_url("public/images/logosmk.png").'" width="70px alt="logo smk"> </td>
-				 
+								  <td> <img src="'.base_url("public/images/logosmk.png").'" width="60px alt="logo smk"> </td>
 								  <td class = "tengah">
-										<h4 align="center">UJIAN AKHIR SEMESTER(GANJIL)
+										<h4 align="center">
+										KARTU PESERTA PENILAIAN<br>
+										AKHIR SEMESTER(GANJIL)<br>
 										SMK AR-ROUDHOH BEJI PASURUAN</h4>	
 								  </td>
-								  <td> <img src="'.base_url("public/images/logosmk.png").'" width="70px alt="logo smk"> </td>
+								  
 							 </tr>
 				 
 					  </table >
