@@ -96,9 +96,9 @@
                 </dd>
                 <dt>Data Peserta</dt>
                 <dd>
-                	Kelompok Data Peserta digunakan untuk mengatur Peserta Siswa6, dan Group.
+                	Kelompok Data Peserta digunakan untuk mengatur Peserta Siswa, dan Group/Kelas.
                 	<ol>
-                		<li>Daftar Group</li>
+                		<li>Daftar Group/Kelas</li>
                 		<li>Daftar Peserta</li>
                 		<li>Import Data Peserta</li>
 						<li>Cetak Kartu</li>
