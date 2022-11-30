@@ -54,7 +54,7 @@
                     <p class="help-block">Soal yang sudah dijawab akan berwarna Biru.</p>
                 </div><!-- /.box-body -->
                 <div class="box-footer">
-                    <button class="btn btn-default pull-right" id="btn-hentikan">Hentikan Tes</button>
+                    <button class="btn btn-default pull-right" id="btn-hentikan">Selesai Tes</button>
                 </div>
             </div><!-- /.box -->
         </div>
@@ -66,7 +66,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button class="close" type="button" data-dismiss="modal">&times;</button>
-                    <div id="trx-judul">Konfirmasi Hentikan Tes</div>
+                    <div id="trx-judul">Konfirmasi Selesai Tes</div>
                 </div>
                 <div class="modal-body" >
                     <div class="row-fluid">
@@ -100,7 +100,7 @@
                     </div>
                 </div>
 				<div class="box-footer">
-					<button type="submit" id="tambah-simpan" class="btn btn-primary">Hentikan Tes</button>
+					<button type="submit" id="tambah-simpan" class="btn btn-primary">Selesai Tes</button>
 					<a href="#" class="btn btn-default" data-dismiss="modal">Close</a>
 				</div>
             </div>
@@ -422,7 +422,7 @@
                     error: function(xmlhttprequest, textstatus, message) {
                         if(textstatus==="timeout") {
                             $("#modal-proses").modal('hide');
-                            notify_error("Gagal menghentikan Tes, Silahkan Refresh Halaman");
+                            notify_error("Gagal Selesai Tes, Silahkan Refresh Halaman");
                         }else{
                             $("#modal-proses").modal('hide');
                             notify_error(textstatus);
