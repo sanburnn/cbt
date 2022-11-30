@@ -19,7 +19,7 @@
             </div><!-- /.box-tools -->
         </div><!-- /.box-header -->
         <div class="box-body">
-            Teruntuk Putri kami tercinta. Asyfiya Aniqa Putri, 28 Februari 2018 – 1 Maret 2018
+            Teruntuk Yayasan Ar-roudhoh Beji
         </div><!-- /.box-body -->
     </div><!-- /.box -->
   <div class="container-fluid px-4">
@@ -42,12 +42,26 @@
             </div>
         </div>  
         </div>
+        <div class="col-lg-3 col-xs-6">
+        <div class="small-box bg-green">
+            <div class="inner">
+                <h3>53<sup style="font-size: 20px">%</sup></h3>
+                <p>Selesai Rate</p>
+                </div>
+                <div class="icon">
+                <i class="ion ion-stats-bars"></i>
+                </div>
+            <a href="#" class="small-box-footer">
+            More info <i class="fa fa-arrow-circle-right"></i>
+            </a>
+        </div>
+        </div>
     </div>
    
   <br>
 	<div class="callout callout-info">
     	<h4>Informasi</h4>
-        <p>Ini adalah area administratif ZYA CBT, yang memiliki platform dan bahasa user-friendly untuk membuat, mengelola dan melaksanakan ujian online.</p>
+        <p>Ini adalah area administratif CBT, yang memiliki platform dan bahasa user-friendly untuk membuat, mengelola dan melaksanakan ujian online.</p>
     </div>
     <div class="box">
         <div class="box-header with-border">
