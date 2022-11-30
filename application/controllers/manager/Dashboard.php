@@ -10,6 +10,7 @@ class Dashboard extends Member_Controller {
         $this->load->helper('form');
         $data['nama'] = $this->access->get_nama();
         $data['jumlah_siswa'] = $this->dashboard->jumlah_siswa();
+        $data['jumlah_soal']=$this->dashboard->jumlah_soal();
         // $data= array(
         //     'user_id'=> $this->dashboard->jumlah_user(),
         // );

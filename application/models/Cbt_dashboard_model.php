@@ -10,4 +10,9 @@ class Cbt_dashboard_model extends CI_Model{
                      ->from('user');
             return $this->db->get();
         }
+        public function jumlah_soal()
+        {
+            return $this->db->query("SELECT count(topik_id) soal FROM cbt_topik")->row();
+        }
+        
 }

@@ -184,7 +184,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" id="btn-hapus" class="btn btn-default pull-left">Hapus</button>
+                    <button type="button" id="btn-hapus" class="btn pull-left bg-red">Hapus</button>
                     <a href="#" class="btn btn-primary" data-dismiss="modal">Close</a>
                 </div>
             </div>
