@@ -136,7 +136,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" id="btn-hapus-pilih" class="btn btn-default pull-left">Hapus</button>
+                    <button type="button" id="btn-hapus-pilih" class="btn bg-red pull-left">Hapus</button>
                     <a href="#" class="btn btn-primary" data-dismiss="modal">Close</a>
                 </div>
             </div>
