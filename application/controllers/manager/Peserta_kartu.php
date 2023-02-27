@@ -69,7 +69,7 @@ class Peserta_kartu extends Member_Controller {
 								  <td class = "tengah">
 										<h4 align="center">
 										KARTU PESERTA PENILAIAN<br>
-										AKHIR SEMESTER(GANJIL)<br>
+										TENGAH SEMESTER(GENAP)<br>
 										SMK AR-ROUDHOH BEJI PASURUAN</h4>	
 								  </td>
 								  
