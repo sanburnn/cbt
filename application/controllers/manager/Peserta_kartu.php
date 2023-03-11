@@ -70,6 +70,7 @@ class Peserta_kartu extends Member_Controller {
 										<h4 align="center">
 										KARTU PESERTA PENILAIAN<br>
 										TENGAH SEMESTER(GENAP)<br>
+										TAHUN 2022/2023<br>
 										SMK AR-ROUDHOH BEJI PASURUAN</h4>	
 								  </td>
 								  
